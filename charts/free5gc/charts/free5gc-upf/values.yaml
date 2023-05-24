@@ -79,6 +79,7 @@ upf:
   imagePullSecrets: []
   podSecurityContext: {}
   securityContext:
+    privileged: true
     capabilities:
       add: ["NET_ADMIN"]
   resources:
@@ -140,6 +141,7 @@ upf1:
   imagePullSecrets: []
   podSecurityContext: {}
   securityContext:
+    privileged: true
     capabilities:
       add: ["NET_ADMIN"]
   resources:
@@ -200,6 +202,7 @@ upf2:
   imagePullSecrets: []
   podSecurityContext: {}
   securityContext:
+    privileged: true
     capabilities:
       add: ["NET_ADMIN"]
   resources:
@@ -262,6 +265,7 @@ upfb:
   imagePullSecrets: []
   podSecurityContext: {}
   securityContext:
+    privileged: true
     capabilities:
       add: ["NET_ADMIN"]
   resources:
